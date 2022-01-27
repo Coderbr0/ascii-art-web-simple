@@ -45,7 +45,7 @@ func formHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Address = %s\n", address)
 }
 
-/*
+/* ascii-art-web-simple:
 https://blog.logrocket.com/creating-a-web-server-with-golang/
 https://go.dev/doc/articles/wiki/
 
